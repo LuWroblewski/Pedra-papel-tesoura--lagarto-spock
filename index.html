@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedra, Papel, Tesoura, Lagarto, Spock Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pedra, Papel, Tesoura, Lagarto, Spock Game</h1>
+    <p>Escolha uma opção:</p>
+    <button id="pedra">
+      <img src="images/pedra.png" alt="Pedra" />
+    </button>
+    <button id="papel">
+      <img src="images/papel.png" alt="Papel" />
+    </button>
+    <button id="tesoura">
+      <img src="images/tesoura.png" alt="Tesoura" />
+    </button>
+    <button id="lagarto">
+      <img src="images/lagarto.png" alt="Lagarto" />
+    </button>
+    <button id="spock">
+      <img src="images/spock.png" alt="Spock" />
+    </button>
+    <div>
+      <span id="playerLabel">Sua escolha:</span>
+      <span id="computerLabel">Escolha do dispositivo:</span>
+    </div>
+    <div class="divEscolha">
+      <p id="playerChoice"></p>
+      <span class="x" id="x" style="display: none">X</span>
+      <p id="computerChoice"></p>
+    </div>
+    <span id="result"></span>
+    <p>Sua Pontuação: <span id="playerScore">0</span></p>
+    <p>Pontuação do Computador: <span id="computerScore">0</span></p>
+    <button id="reset">Reiniciar</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
