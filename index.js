@@ -143,6 +143,7 @@ document.getElementById("reset").addEventListener("click", () => {
   document.getElementById("computerChoice").textContent = "";
   document.getElementById("result").textContent = "";
   clearInterval(countdownTimer);
+  document.getElementById("x").style.display = "none";
   startCountdown(); // Iniciar contagem regressiva ao reiniciar
 });
 
